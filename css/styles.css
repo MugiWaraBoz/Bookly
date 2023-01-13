@@ -1,0 +1,283 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h5,h6 {
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    color: white;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Montserrat', ;
+}
+
+/* Container */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Sections */
+
+.colored-container {
+    background: rgb(26,18,11);
+    background: linear-gradient(90deg, rgba(26,18,11,1) 0%, rgba(60,42,33,1) 48%);
+}
+
+.white-container {
+    background: rgb(255,255,255);
+    background: linear-gradient(236deg, rgba(255,255,255,1) 0%, rgba(252,255,195,1) 100%);
+}
+
+.black-container {
+    background-color: #1A120B;
+}
+
+/* Tittle */
+
+#tittle {
+
+}
+
+/*Navbar*/
+
+.navbar {
+    font-family: monospace;
+    padding-top: 0%;
+    padding-bottom: 3.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 16px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Heading */
+
+.big-heading {
+    color: white;
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+/* Download Buttions */
+
+.main-tittle {
+    display: inline;
+    position: relative;
+    bottom: 35px;
+}
+
+@media (max-width: 937px) {
+    .main-tittle {
+        text-align: center;
+    }
+  }
+
+.download-button {
+    margin: 5% 2% 5% 0;
+}
+
+/* Tittle Image */
+
+.image-box {
+    position: relative;
+    left: 9rem;
+
+}
+
+.img-animation {
+    opacity: 100%;
+    animation-name: slideinleft;
+    animation-duration: 0.9s;
+    transform: translateY(2%);
+}
+
+@keyframes slideinleft {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+
+    from {
+        transform: translateY(5%);
+    }
+    to {
+        transform: translateY(2%);
+    }
+  }
+
+/* about page */
+
+#about {
+
+    font-family: 'Montserrat-bold', sans-serif;
+    padding: 5% 15%;
+}
+
+.about-box {
+    text-align: center;
+    padding: 0 5%;
+    animation-name: slideinleft;
+    transform: translateY(2%);
+    animation-duration: 0.8s;
+}
+
+p {
+    color: #3C2A21;
+}
+
+.about-logo {
+    margin-bottom: 1rem;
+}
+
+.about-logo:hover {
+    color: rgb(82, 82, 82);
+}
+
+/* Readers Review */
+
+#readers-review {
+    text-align: center;
+    color: #E5E5CB;
+    text-align: center;
+}
+
+.img-human {
+    border-radius: 100% 45% 100% 20%;
+    width: 15rem;
+    padding-bottom: 2rem;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+.review-text {
+    color: #E5E5CB;
+    padding: 0 20%;
+}
+
+/* Sponsors */
+
+#Sponsors {
+    background: rgb(255,255,255);
+    background: linear-gradient(236deg, rgba(255,255,255,1) 0%, rgba(252,255,195,1) 100%);
+    text-align: center;
+}
+
+.sponsor-logo {
+    width: 10%;
+    margin: 10px 50px 50px;
+}
+
+.sponsor-text {
+    font-weight:bolder;
+    color: black;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Pricing */
+
+#Pricing {
+    padding: 100px;
+}
+
+h5 {
+    color: white;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.plan-text {
+    color: white;
+}
+
+.button {
+    font-family: monospace;
+    margin-bottom: 1rem;
+}
+
+.card {
+    border: 0;
+}
+
+.card-pricing {
+    margin: 10px 0;
+}
+
+span {
+    font-size: 1.5rem;
+    opacity: 50%;
+}
+
+/* Footer Section */
+
+#footer {
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 5% 12%;
+}
+
+.big-font {
+    color: #3C2A21;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2.5rem;
+    padding-top: 4%;
+    font-weight: bolder;
+}
+
+.footer-download-button {
+    margin: 1% 2% 3% 0;
+    text-align: center;
+}
+
+/* End Section */
+
+#End {
+    text-align: center;
+    padding: 4% 0 3%;
+}
+
+.footer-brand-logo {
+    color: #E5E5CB;
+}
+
+.brand-logo {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E5CB;
+}
+
+a:hover {
+    color: #a2a291;
+}
+
+.copyright {
+    font-family: 'Montserrat-Black', sans-serif;
+    color: #E5E5CB;
+    line-height: 4;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
